@@ -1,0 +1,47 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #6daff9;
+    overflow: hidden;
+    margin: 0; 
+}
+
+.container {
+    width: 100vw; 
+    height: 100vh; 
+    position: relative;
+    overflow: hidden; 
+}
+
+.line {
+    width: 100vw; 
+    height: 50px;
+    background-color: rgb(32, 23, 23);
+    position: absolute;
+    bottom: 100px;
+    left: 0;
+    opacity: 0.9;
+}
+
+.run {
+    position: absolute;
+    bottom: 100px; 
+    left: 0;
+    font-size: 5rem;
+    white-space: nowrap;
+}
+
+.cloud {
+    position: absolute;
+    font-size: 4rem;
+    opacity: 1;
+}
+
+#sun {
+    position: absolute;
+    font-size: 5rem;
+    left: 100px;
+    transform: translate(-50%, -50%);
+}
